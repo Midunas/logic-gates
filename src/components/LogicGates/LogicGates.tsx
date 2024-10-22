@@ -3,7 +3,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Switch } from '@/components/ui/switch';
 import { TruthTable } from '../TruthTable/TruthTable';
 
-const LogicGates = () => {
+export const LogicGates = () => {
   const [inputA, setInputA] = useState(false);
   const [inputB, setInputB] = useState(false);
 
@@ -98,5 +98,3 @@ const LogicGates = () => {
     </Card>
   );
 };
-
-export default LogicGates;
